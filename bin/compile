@@ -37,6 +37,6 @@ bundle install -j4 --deployment
 echo "-----> npm install"
 npm install
 echo "-----> bundle exec rake webpack:compile"
-bundle exec rake webpack:compile --trace
+bundle exec rake webpack:compile
 echo "-----> npm prune"
 npm prune

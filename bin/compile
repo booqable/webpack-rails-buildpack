@@ -33,7 +33,7 @@ export_env_dir
 # echo "-----> gem install bundler"
 # gem install bundler --no-document
 # echo "-----> bundle install"
-bundle install -j4 --deployment
+# bundle install -j4 --deployment
 echo "-----> npm install"
 npm install
 echo "-----> bundle exec rake webpack:compile"

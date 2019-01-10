@@ -30,9 +30,9 @@ export_env_dir() {
 
 export_env_dir
 
-echo "-----> gem install bundler"
-gem install bundler --no-document
-echo "-----> bundle install"
+# echo "-----> gem install bundler"
+# gem install bundler --no-document
+# echo "-----> bundle install"
 bundle install -j4 --deployment
 echo "-----> npm install"
 npm install
